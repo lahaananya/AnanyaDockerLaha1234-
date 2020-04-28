@@ -1,5 +1,5 @@
 # AnanyaDockerLaha1234-
-3-tier architecture using Docker-compose
+##3-tier architecture using Docker-compose
 Name of the service is Fe which stands for front end for setting up front end.
 It has to pull and contain an image. Port mapping is followed by the network it has to use when it is 
 installed on the local machine. 
