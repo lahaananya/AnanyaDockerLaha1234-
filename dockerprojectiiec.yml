@@ -12,16 +12,16 @@ services:
        container_name: mongodb
        image: "mongo:latest"
        networks:
-	-javahome-app
+       -javahome-app
        volumes:
-	-mongodb:/data/db
+       -mongodb:/data/db
      emp-api:
        container_name: empapi
        image: kammana/boot-api:5.0
        ports:
-	- "8080:8080"
+       - "8080:8080"
        networks:
-	javahome-app
+       javahome-app
    volumes:
      mongodb:
    networks:
