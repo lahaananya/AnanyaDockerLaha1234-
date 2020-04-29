@@ -7,7 +7,7 @@ services:
        ports:
         - "4200:4200"
        networks:
-	-javahome-app
+       -javahome-app
     mongodb:
        container_name: mongodb
        image: "mongo:latest"
