@@ -27,17 +27,3 @@ services:
    networks:
      javahome-app:
         driver: bridge
-
-
-
-
-
-
-
-
-
-
-
-
-
-
